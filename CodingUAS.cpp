@@ -6,7 +6,7 @@
 using namespace std;
 
 // Struct untuk menyimpan data barang di gudang
-struct Gudang//titik
+struct Gudang
 {
     string nama_barang;
     int stok;
@@ -21,7 +21,7 @@ void tambahStok(Gudang &barang, int jumlah)
 }
 
 // Fungsi untuk mengurangi stok barang
-void kurangiStok(Gudang &barang, int jumlah)
+void kurangiStok(Gudang &barang, int jumlah)//hp
 {
     if (barang.stok >= jumlah)
     {
