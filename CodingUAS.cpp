@@ -59,7 +59,7 @@ void tambahBarang(vector<Gudang> &gudang)
 // Fungsi untuk menampilkan daftar barang
 void daftarBarang(const vector<Gudang> &gudang)
 {
-    cout << "Daftar Barang di Gudang:\n";//tau ah
+    cout << "Daftar Barang di Gudang:\n";
     for (size_t i = 0; i < gudang.size(); ++i)
     {
         cout << i + 1 << ". " << gudang[i].nama_barang << " | Stok yang ada di gudang: " << gudang[i].stok << " " << gudang[i].satuan << endl;
@@ -75,7 +75,7 @@ int main()
     {
         // Menampilkan menu
         cout << "\nPilih Menu:";
-        cout << "\n1. Tambah Barang Baru";
+        cout << "\n1. Tambah Barang Baru";//ok
         cout << "\n2. Tambah Stok";
         cout << "\n3. Kurangi Stok";
         cout << "\n4. Cek Stok";
