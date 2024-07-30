@@ -37,7 +37,7 @@ void kurangiStok(Gudang &barang, int jumlah)
 // Fungsi untuk menampilkan sisa stok barang
 void cekStok(Gudang &barang)
 {
-    cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;//fisir
+    cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;
 }
 
 // Fungsi untuk menambah barang baru
@@ -51,7 +51,7 @@ void tambahBarang(vector<Gudang> &gudang)
     cin >> barangBaru.stok;
     cin.ignore(); // Mengabaikan karakter newline setelah input integer
     cout << "Masukkan satuan (misalnya: box, buah, biji): ";
-    getline(cin, barangBaru.satuan);
+    getline(cin, barangBaru.satuan);//cpp
     gudang.push_back(barangBaru);
     cout << "Barang baru berhasil ditambahkan.\n";
 }
