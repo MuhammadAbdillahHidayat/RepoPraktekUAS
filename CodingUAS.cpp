@@ -51,7 +51,7 @@ void tambahBarang(vector<Gudang> &gudang)
     cin >> barangBaru.stok;
     cin.ignore(); // Mengabaikan karakter newline setelah input integer
     cout << "Masukkan satuan (misalnya: box, buah, biji): ";
-    getline(cin, barangBaru.satuan);//cpp
+    getline(cin, barangBaru.satuan);
     gudang.push_back(barangBaru);
     cout << "Barang baru berhasil ditambahkan.\n";
 }
@@ -160,7 +160,7 @@ int main()
             break;
         }
 
-    } while (pilihan != 6);
+    } while (pilihan != 6);//end
 
     return 0;
 }
