@@ -68,7 +68,7 @@ void daftarBarang(const vector<Gudang> &gudang)
 
 int main()
 {
-    vector<Gudang> gudang;
+    vector<Gudang> gudang;//sayang kamu
     int pilihan;
 
     do
@@ -147,7 +147,7 @@ int main()
             {
                 cout << "Nomor barang tidak valid.\n";
             }
-            break;//aku cinta kamu
+            break;
         }
         case 5:
             daftarBarang(gudang);
