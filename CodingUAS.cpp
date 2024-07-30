@@ -21,7 +21,7 @@ void tambahStok(Gudang &barang, int jumlah)
 }
 
 // Fungsi untuk mengurangi stok barang
-void kurangiStok(Gudang &barang, int jumlah)//hp
+void kurangiStok(Gudang &barang, int jumlah)
 {
     if (barang.stok >= jumlah)
     {
@@ -37,7 +37,7 @@ void kurangiStok(Gudang &barang, int jumlah)//hp
 // Fungsi untuk menampilkan sisa stok barang
 void cekStok(Gudang &barang)
 {
-    cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;
+    cout << "Stok " << barang.nama_barang << " di gudang adalah " << barang.stok << " " << barang.satuan << endl;//fisir
 }
 
 // Fungsi untuk menambah barang baru
