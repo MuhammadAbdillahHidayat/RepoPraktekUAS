@@ -147,7 +147,7 @@ int main()
             {
                 cout << "Nomor barang tidak valid.\n";
             }
-            break;
+            break;//aku cinta kamu
         }
         case 5:
             daftarBarang(gudang);
