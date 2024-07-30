@@ -16,7 +16,7 @@ struct Gudang
 // Fungsi untuk menambah stok barang
 void tambahStok(Gudang &barang, int jumlah)
 {
-    barang.stok += jumlah;
+    barang.stok += jumlah;//tapi
     cout << "Stok " << barang.nama_barang << " bertambah sebanyak " << jumlah << " " << barang.satuan << ". Stok saat ini: " << barang.stok << " " << barang.satuan << endl;
 }
 
@@ -75,7 +75,7 @@ int main()
     {
         // Menampilkan menu
         cout << "\nPilih Menu:";
-        cout << "\n1. Tambah Barang Baru";//ok
+        cout << "\n1. Tambah Barang Baru";
         cout << "\n2. Tambah Stok";
         cout << "\n3. Kurangi Stok";
         cout << "\n4. Cek Stok";
